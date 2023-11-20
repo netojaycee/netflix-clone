@@ -1,0 +1,42 @@
+import React from "react";
+import logo from "./assets/images/newlogo.png";
+
+function App() {
+  return (
+    <>
+      <div className="w-full h-screen bg-cover bg-fixed flex flex-col bg-hero">
+        <div className="w-[70%] mx-auto pt-7">
+          <div className="flex flex-row justify-between items-center">
+            <img src={logo} alt="Logo" className="w-[15%] object-cover" />
+
+            <button className="py-2 px-9 bg-primary text-white">Sign in</button>
+          </div>
+        </div>
+        <div className="flex flex-col text-white items-center justify-center flex-grow">
+          <h1 className="text-4xl font-bold mb-2">
+            Unlimited movies, TV shows, and more
+          </h1>
+          <p className="text-2xl font-bold">
+            Watch anywhere. Cancel anytime.
+          </p>
+          <p className="font-bold">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div className="flex flex-row gap-3 mt-4">
+            <input
+              type="text"
+              placeholder="Email address"
+              className="w-[400px] bg-transparent rounded-none px-3 py-2 border border-gray-300"
+            />
+            <button className="py-2 px-9 bg-primary text-white">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default App;
