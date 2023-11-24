@@ -11,6 +11,7 @@ export default {
       },
       backgroundImage: {
         'hero': "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/images/movie-poster-background.jpg')",
+        'joker': "url('./assets/images/mobile-0819.jpg')",
       },
 
     },
