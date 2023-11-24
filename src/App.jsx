@@ -42,9 +42,9 @@ function App() {
             <p className="mt-8 flex items-center">
               <span className="mr-2 rounded-full p-2 bg-primary"></span>Explore Now
             </p>
-            <h1 className="text-4xl font-bold mt-1 text-primary">Joker 2023</h1>
-            <p className=" mt-1 ">Now Available</p>
-            <p className="mt-1 max-h-[55%]">
+            <h1 className="text-4xl mt-1 text-primary leading-9 w-full font-extrabold">Joker 2023</h1>
+            <p className=" mt-1 text-xl font-serif">Now Available</p>
+            <p className="mt-2 max-h-[55%] font-thin">
               lLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               at turpis ut quam convallis tincidunt vel a ex. Fusce nec urna
               euismod, varius libero et, lacinia orci. Duis eu tellus nec mauris
@@ -57,7 +57,7 @@ function App() {
               accumsan fermentum. Maecenas varius purus nec dolor auctor, ac
               dapibus odio finibus. Integer eget metus arcu.
             </p>
-            <button className="bg-primary px-3 py-2 rounded-md mt-1 w-[26%]">
+            <button className="bg-primary px-3 py-2 rounded-md mt-2 w-[26%]">
               Add to cart
             </button>
           </div>
